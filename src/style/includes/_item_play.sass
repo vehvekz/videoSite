@@ -1,0 +1,92 @@
+.item_play-wrap
+	height: 750px
+	margin-bottom: 15px
+.item_play-video
+	position: relative
+	height: 410px
+	background-color: $itemPlayBg
+.item_play-discr--wrap
+	position: relative
+	height: 342px
+	background-color: $itemPlayDiscrBg
+.item_play-discr
+	width: 100%
+	position: absolute
+	bottom: 0
+
+
+.item_play-like
+	height: 70px
+	background-color: $itemPlayLikeBg
+.like-finger, .like-procent, .like-share
+	display: inline-block
+.like-finger
+	cursor: pointer
+	width: 75px
+	height: 70px
+	text-align: center
+	border-right: 1px solid $bgColor
+	border-left: 1px solid $bgColor
+	&:first-child
+		border-left: none
+	i
+		padding-top: 15px
+		font:
+			size: 3em
+			weight: 100
+		color: $itemBg
+	&:hover i
+		color: $accentColor
+.like-procent
+	text-align: center
+	max-width: 230px
+	padding: 4px 0
+	font-size: 1.42em
+	.procent-line
+		margin-top: 10px
+		font-size: 1px
+		span
+			display: inline-block
+			width: 20px
+			height: 2px
+			background-color: $itemBg
+			&.active
+				background-color: $accentColor
+.like-share
+	max-width: 220px
+	padding: 0 20px
+	height: 70px
+	text-align: center
+	a
+		cursor: pointer
+		&:hover i
+			color: $accentColor
+	i
+		padding-top: 15px
+		font:
+			size: 3em
+			weight: 100
+		color: $itemBg
+	span
+		font-size: 1.42em
+		padding-left: 20px
+		color: $itemBg
+
+.item_play-info
+	padding: 10px 13px
+	font-size: 1.42em
+.cat-link
+	padding-right: 6px
+	color: $itemBg
+	text-decoration: underline
+	&:hover, &:focus
+		color: $itemBg
+.cat-title
+	display: inline-block
+	color: $accentColor
+	padding-right: 5px
+.cat-time, .cat-duration
+	padding-right: 30px
+.added, .duration
+	display: inline-block
+

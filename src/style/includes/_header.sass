@@ -1,0 +1,112 @@
+.header
+	width: 100%
+	height: 50px
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,4a4a49+77,343333+100 */
+	background: rgb(102,102,102) /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(102,102,102,1) 0%, rgba(74,74,73,1) 77%, rgba(52,51,51,1) 100%) /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,102,102,1)), color-stop(77%,rgba(74,74,73,1)), color-stop(100%,rgba(52,51,51,1))) /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(102,102,102,1) 0%,rgba(74,74,73,1) 77%,rgba(52,51,51,1) 100%) /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(102,102,102,1) 0%,rgba(74,74,73,1) 77%,rgba(52,51,51,1) 100%) /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(102,102,102,1) 0%,rgba(74,74,73,1) 77%,rgba(52,51,51,1) 100%) /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(102,102,102,1) 0%,rgba(74,74,73,1) 77%,rgba(52,51,51,1) 100%) /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#343333',GradientType=0 ) /* IE6-9 */
+
+	margin-top: 20px
+.header-wrap
+	overflow: hidden
+
+.toggle_menu
+	width: 50px
+	height: 50px
+	background-color: $toggleBg
+	border: none
+	float: left
+	padding: 10px
+	i
+		color: $secondColor
+		text-align: center
+		font: 
+			size: 2.4em
+			weight: 100
+
+.logo_wrap
+	width: 280px
+	height: 50px
+	float: left
+	line-height: 50px
+	color: $accentColor
+	text-align: center
+	font-size: 1.42em
+	text-shadow: 1px 1px rgba(0,0,0,.3)
+
+.main-nav
+	float: left
+.main-nav--list
+	list-style-type: none
+	padding: 0
+	margin: 0
+.main-nav--item
+	float: left
+	border-left: 1px solid $bgColor
+	&:last-child
+		border-right: 1px solid $bgColor
+	&.active
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffcc00+1,683500+100 */
+		background: rgb(255,204,0) /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(255,204,0,1) 1%, rgba(104,53,0,1) 100%) /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(255,204,0,1)), color-stop(100%,rgba(104,53,0,1))) /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(255,204,0,1) 1%,rgba(104,53,0,1) 100%) /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(255,204,0,1) 1%,rgba(104,53,0,1) 100%) /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(255,204,0,1) 1%,rgba(104,53,0,1) 100%) /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(255,204,0,1) 1%,rgba(104,53,0,1) 100%) /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#683500',GradientType=0 ) /* IE6-9 */
+.main-nav--link
+	display: block
+	cursor: pointer
+	padding: 0 15px
+	line-height: 50px
+	font:
+		size: 1.42em
+	text-shadow: 1px 1px rgba(0,0,0,.5)
+	color: $mainColor
+	&:hover
+		text-decoration: none
+		color: $mainColor
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffcc00+1,683500+100 */
+		background: rgb(255,204,0) /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(255,204,0,1) 1%, rgba(104,53,0,1) 100%) /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(255,204,0,1)), color-stop(100%,rgba(104,53,0,1))) /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(255,204,0,1) 1%,rgba(104,53,0,1) 100%) /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(255,204,0,1) 1%,rgba(104,53,0,1) 100%) /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(255,204,0,1) 1%,rgba(104,53,0,1) 100%) /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(255,204,0,1) 1%,rgba(104,53,0,1) 100%) /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#683500',GradientType=0 ) /* IE6-9 */
+	&:focus
+		text-decoration: none
+		color: $mainColor
+
+.search_wrap 
+	position: relative
+	float: right
+	line-height: 50px
+	margin-right: 26px
+	.search-icon
+		position: absolute
+		right: 10px
+		i
+			color: $itemBg
+			font-size: 1.3em
+	input[type="search"]
+		outline: none
+		-webkit-appearance: none
+		vertical-align: middle
+		display: inline-block
+		width: 210px
+		height: 36px
+		background-color: $bgColor
+		border: none
+		border-radius: 10px
+		padding: 0 35px 0 10px
+		line-height: 36px
+	

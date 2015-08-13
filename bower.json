@@ -1,0 +1,16 @@
+{
+  "name": "video-site",
+  "version": "0.0.1",
+  "authors": [
+    "alexey savkin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "normalize.css": "*"
+  }
+}

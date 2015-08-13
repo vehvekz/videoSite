@@ -1,0 +1,19 @@
+header.header
+	.container.header-wrap
+		button.toggle_menu
+			i.fa.fa-bars
+		.logo_wrap.hidden-xs Your site logo 280x50
+		nav.main-nav.hidden-sm.hidden-xs
+			ul.main-nav--list
+				li.main-nav--item
+					a.main-nav--link(href="#") Home
+				li.main-nav--item
+					a.main-nav--link(href="#") Videos
+				li.main-nav--item.active
+					a.main-nav--link(href="#") Categories
+				li.main-nav--item
+					a.main-nav--link(href="#") Sites
+		.search_wrap
+			form(action="//google.com/search", name="form")
+				span.search-icon: i.fa.fa-search
+				input(name="search", type="search", placeholder="Search videos...")
